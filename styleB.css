@@ -1,0 +1,111 @@
+body {
+    background-color: #00072D;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-padding: 30px;
+}
+
+h2 {
+    font-size: 6vw;
+}
+
+h2, h3, h4 {
+    font-family: 'Itim', cursive;
+}
+
+h4 {
+    color: #E3B505;
+}
+
+hr {
+    background-color: #f6f7fb;
+    opacity: .2;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#h4 {
+    font-size: 5vw;
+}
+
+.myNav {
+    padding:5px 30px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+nav a:hover {
+    color: #6DBDE1 !important;
+}
+
+.bg-image {
+    background-image: url('/images/bg-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.fab {
+    font-size: 2em;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.fab:hover {
+    background-color: #555;
+}
+
+.fa-facebook-square {
+    color: #0D8AF0;
+}
+
+.fa-github-square {
+    color: #7B258B;
+    
+}
+
+.fa-discord {
+    color: #7289DA;
+}
+
+.img-column, .sm-img-col {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img-column {
+    background-color: #E3B505;
+}
+
+.sm-img-col {
+    background: #F75590;
+}
+
+.col2 {
+    background: #E3B505;
+}
+
+.sm-img-col img {
+    width: 60%;
+}
+
+
+
+
+

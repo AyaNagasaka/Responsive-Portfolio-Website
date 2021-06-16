@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 .bg-image {
-    background-image: url('../images/bg-img.jpg');
+    background-image: url("./images/bg-img.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;

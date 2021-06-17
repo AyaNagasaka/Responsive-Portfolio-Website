@@ -32,6 +32,10 @@ nav a {
     font-size: 1.1em;
 }
 
+nav ul li {
+    padding-left: 15px;
+}
+
 #logo {
     width: 50px;
     height: 50px;
@@ -42,7 +46,7 @@ nav a {
 }
 
 .myNav {
-    padding:5px 70px;
+    padding:5px 30px;
 }
 
 .nav-link {
@@ -112,3 +116,26 @@ nav a:hover {
 .sm-img-col img {
     width: 70%;
 }
+
+@media (min-width: 992px) {
+    .myNav {
+        padding: 5px 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .myNav {
+        padding: 5px 60px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .myNav {
+        padding: 5px 70px;
+    }
+}
+
+
+
+
+
